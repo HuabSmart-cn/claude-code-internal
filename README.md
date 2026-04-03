@@ -4,9 +4,9 @@
 
 ## 概述
 
-Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Claude 交互完成软件工程任务。本 Wiki 基于 2026-03-31 通过 npm source map 泄露的源码进行详细分析。
+Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Claude 交互完成软件工程任务。本 Wiki 基于 2026-03-31 通过 npm source map 泄露的源码进行详细分析的汇报。
 
-## 项目规模
+## 源文件项目规模
 
 - **文件数量**：约 1900 个文件
 - **代码规模**：512K+ 行代码
@@ -34,7 +34,7 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 
 ## 免责声明
 
-- 本仓库是**教育和防御性安全研究存档**，由大学生维护
+- 本仓库是**教育和安全性研究文档**，由华彬智融知识数据库维护
 - 旨在研究源码暴露、包装失败和现代代理 CLI 系统架构
-- Claude Code 原始源码版权归 **Anthropic** 所有
+- Claude Code 原始源码版权归 **Anthropic** 所有，本库不涉及有关内容
 - 本仓库**不隶属于、不代表、不受 Anthropic 维护或赞助**
