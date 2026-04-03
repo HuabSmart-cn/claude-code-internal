@@ -1,4 +1,4 @@
-# Claude Code 源码中文 Wiki
+#Claude Code 源码中文维基
 
 本文件说明：总索引文档，介绍整个 Wiki 的结构和各部分内容。
 文档说明：主索引文档，介绍整个维基的结构及各部分内容。
@@ -17,7 +17,7 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 - **源码泄露时间**：2026-03-31（通过 npm source map）
 - **感谢源码文件支持**：Njengah Joe Njenga
 
-##维基结构
+## 维基结构
 
 本维基包含以下章节：
 
@@ -54,10 +54,10 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 
 | 模块 | 说明 | 文档 |
 |------|------|------|
-| tools/ | 45+ 工具实现 | 工具注册、分类、接口 |
-| commands/ | 100+ 命令 | 命令类型、分类、架构 |
-| services/ | 核心服务 | API、压缩、MCP |
-| components/ | UI 组件 | React 组件、权限对话框 |
+|工具/|45+ 工具实现|工具注册、分类、接口|
+|命令/|100+ 命令|命令类型、分类、架构|
+|服务/|核心服务|API、压缩、MCP|
+|组件/|UI 组件|React 组件、权限对话框|
 | utils/ | 工具函数 | Git、权限、Shell |
 | ink/ | 终端渲染 | Ink 框架、Box 模型 |
 
