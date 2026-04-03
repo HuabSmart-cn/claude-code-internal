@@ -17,6 +17,90 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 - **源码泄露时间**：2026-03-31（通过 npm source map）
 - **感谢源码文件支持**：Njengah Joe Njenga
 
+
+# Claude Code AI 智能重构项目
+
+---
+
+## 🔥 项目亮点
+
+本项目并非简单的源码拷贝，通过对 Claude Code 近 2000 个源文件的深度解析，生成与原文件一一对应的 `.md` 文档，实现源码与解析的完美映射说明。
+
+## 核心优势
+
+| 特性 | 说明 |
+| :--- | :--- |
+| AI 驱动 | 利用 AI 对每个源文件进行深度解读，提取核心逻辑与设计意图 |
+| 一一对应 | 每个 `.ts` / `.tsx` 文件都有专属的 `.md` 解析文档，结构清晰 |
+| 分层架构 | 87 个 commands、46 个 tools、36 个 utils 模块，独立文件独立解析 |
+| 高可读性 | 去除冗余注释，保留关键类型定义，代码即文档 |
+| 技术深度 | 涵盖 QueryEngine、Tool 系统、权限模型、桥接机制等核心模块 |
+
+## 目录映射示例
+
+```text
+src/
+├── main.tsx          →  main.tsx.md        # CLI 入口
+├── query.ts          →  query.ts.md        # 查询引擎
+├── tools/
+│   ├── BashTool/     →  tools/BashTool/README.md
+│   └── FileReadTool  →  tools/FileReadTool/README.md
+└── commands/
+    ├── commit/       →  commands/commit/README.md
+    └── review/       →  commands/review/README.md
+```
+
+## 适用人群
+
+- 想要深入理解 Claude Code 架构的开发者
+- 研究 Agent 系统设计模式的工程师
+- 希望基于 Claude Code 进行二次开发的团队
+- 对 CLI 工具有兴趣的安全研究员
+
+> 源码是骨架，解析是血肉 —— 本项目让 Claude Code 的每一行代码都有了灵魂。
+
+---
+
+## 🔥 Project Highlights
+
+This project is not a simple source code copy, but a product of AI-powered restructuring. Through deep analysis of nearly 2,000 source files from Claude Code, we generate `.md` documents that are one-to-one mapped to the original files, achieving perfect alignment between source and analysis.
+
+## Core Advantages
+
+| Feature | Description |
+| :--- | :--- |
+| AI-Driven | AI deep-dives into each source file, extracting core logic and design intent |
+| One-to-One Mapping | Every `.ts`/`.tsx` file has its own dedicated `.md` analysis document |
+| Layered Architecture | 87 commands, 46 tools, 36 utils modules—each parsed independently |
+| High Readability | Removes redundant comments, preserves key type definitions—code IS documentation |
+| Technical Depth | Covers QueryEngine, Tool system, permission model, bridge mechanism, and more |
+
+## Directory Mapping Example
+
+```text
+src/
+├── main.tsx          →  main.tsx.md        # CLI entry point
+├── query.ts          →  query.ts.md        # Query engine
+├── tools/
+│   ├── BashTool/     →  tools/BashTool/README.md
+│   └── FileReadTool  →  tools/FileReadTool/README.md
+└── commands/
+    ├── commit/       →  commands/commit/README.md
+    └── review/       →  commands/review/README.md
+```
+
+## Target Audience
+
+- Developers wanting to deeply understand Claude Code's architecture
+- Engineers researching Agent system design patterns
+- Teams looking to build on top of Claude Code
+- Security researchers interested in CLI tooling
+
+> Source code is the skeleton, analysis is the flesh — This project gives every line of Claude Code a soul.
+
+---
+
+
 ## 维基结构
 
 本维基包含以下章节：
@@ -82,6 +166,7 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 - 唯一官网：<www.huabsmart.cn>
 - 飞书知识库wiki：<https://bl7rsz9526.feishu.cn/wiki/space/7447214332972187650?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home>
 - 飞书官方知识库：<https://www.feishu.cn/community/articleid=7475329207598317569>
+
 
 **Analysis Version**: Claude Code v2.1.90
 **Analysis Date**: 2026-04-03
