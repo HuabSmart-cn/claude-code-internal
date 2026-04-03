@@ -38,3 +38,9 @@ Claude Code 是 Anthropic 开发的 CLI 工具，用于在终端环境中与 Cla
 - 旨在研究源码暴露、包装失败和现代代理 CLI 系统架构
 - Claude Code 原始源码版权归 **Anthropic** 所有，本库不涉及有关内容
 - 本仓库**不隶属于、不代表、不受 Anthropic 维护或赞助**
+
+## 华彬智融知识数据库
+
+- 唯一官网：<www.huabsmart.cn>
+- 飞书知识库wiki：<https://bl7rsz9526.feishu.cn/wiki/space/7447214332972187650?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home>
+- 飞书官方知识库：<https://www.feishu.cn/community/article?id=7475329207598317569>
